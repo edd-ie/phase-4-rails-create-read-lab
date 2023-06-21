@@ -9,8 +9,9 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "PORT=4000 react-scripts start"
+    "start": "cross-env PORT=4000 react-scripts start"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -28,5 +29,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }
